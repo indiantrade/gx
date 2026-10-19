@@ -1,165 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> GUJRATI TRADER - Learning Community</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-
-  .card {
-    width: 85%;
-    max-width: 340px; 
-    background: #010a0f;
-    border: 1.5px solid #00d2ff;
-    border-radius: 35px;
-    padding: 20px 15px;
-    text-align: center;
-    box-shadow: 0 0 25px rgba(0, 210, 255, 0.15);
-  }
-
-  .profile-img {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    border: 3px solid #00d2ff;
-    object-fit: cover;
-    margin-top: -5px;
-    box-shadow: 0 0 15px #00d2ff;
-  }
-
-  h1 {
-    color: #fff;
-    font-size: 20px;
-    margin: 15px 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .features {
-    text-align: left;
-    margin: 0 auto;
-    width: 90%;
-  }
-
-  .feature-item {
-    color: #ccc;
-    font-size: 13px;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    display: flex;
-    align-items: center;
-  }
-
-  .feature-item:last-child { border-bottom: none; }
-
-  .icon { margin-right: 12px; font-size: 16px; }
-
-  .join-text {
-    color: #eee;
-    font-size: 12px;
-    margin: 20px 0 12px;
-    font-weight: 300;
-  }
-
-  .telegram-btn {
-    display: block;
-    background: linear-gradient(90deg, #00d2ff 0%, #9247ff 100%);
-    color: white;
-    text-decoration: none;
-    padding: 14px;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 15px;
-    box-shadow: 0 4px 12px rgba(0, 210, 255, 0.3);
-  }
-
-  .hindi-quote {
-    color: #bbb;
-    font-size: 13px;
-    margin-bottom: 20px;
-    line-height: 1.4;
-  }
-
-  .footer-box {
-    border: 1px solid rgba(0, 210, 255, 0.2);
-    border-radius: 12px;
-    padding: 8px;
-    font-size: 11px;
-    color: #888;
-  }
-
-  /* Link styling for Agency */
-  .footer-box a { 
-    color: #00d2ff; 
-    font-weight: bold; 
-    text-decoration: none;
-  }
-
-  .disclaimer {
-    font-size: 9px;
-    color: #444;
-    margin-top: 12px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRADE WITH GOUTHAM | Official Telegram Channel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              dark: '#0a0f1d',
+              card: '#121929',
+              accent: '#22c55e',
+              accentHover: '#16a34a',
+              gold: '#eab308',
+              goldDark: '#ca8a04',
+              agency: '#3b82f6'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glow-effect {
+      box-shadow: 0 0 25px rgba(34, 197, 94, 0.35);
+    }
+    .glow-gold {
+      box-shadow: 0 0 15px rgba(234, 179, 8, 0.25);
+    }
+    .gradient-bg {
+      background: radial-gradient(circle at top center, #1e293b 0%, #0a0f1d 70%);
+    }
+    @keyframes pulse-slow {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+    }
+    .animate-pulse-slow {
+      animation: pulse-slow 2.5s infinite ease-in-out;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-brand-dark text-slate-100 font-sans min-h-screen flex flex-col justify-between selection:bg-brand-accent selection:text-white pb-24 md:pb-0">
 
-<div class="card">
-  <img src="https://i.ibb.co/GQYGXHF4/In-Shot-20260927-223648191.jpg" alt=" GUJRATI TRADER" class="profile-img">
+  <!-- Header Disclaimer Bar (Meta Ads Compliance) -->
+  <header class="bg-slate-900/90 border-b border-slate-800 text-[11px] text-slate-400 py-2 px-4 text-center">
+    <div class="max-w-4xl mx-auto flex items-center justify-center gap-1.5 flex-wrap">
+      <span class="inline-block w-2 h-2 rounded-full bg-amber-500"></span>
+      <strong class="text-slate-300">EDUCATIONAL PURPOSE ONLY:</strong>
+      <span>We are not SEBI registered advisors. Trading in Stock Market/F&O carries financial risk.</span>
+    </div>
+  </header>
 
-  <h1> GUJRATI TRADER</h1>
+  <!-- Main Hero Section -->
+  <main class="gradient-bg flex-grow flex items-center justify-center px-4 py-8 md:py-12">
+    <div class="max-w-md w-full mx-auto text-center space-y-6">
 
-  <div class="features">
-    <div class="feature-item"><span class="icon"></span> Learning & Educational Sessions</div>
-    <div class="feature-item"><span class="icon"></span> Market Concepts & Awareness</div>
-    <div class="feature-item"><span class="icon"></span> Chart Reading Concepts</div>
-    <div class="feature-item"><span class="icon"></span> Educational Case Discussions</div>
+      <!-- Logo with Glow & Verified Badge -->
+      <div class="relative inline-block mx-auto">
+        <div class="w-28 h-28 md:w-32 md:h-32 rounded-full p-1 bg-gradient-to-tr from-brand-gold via-brand-accent to-emerald-400 glow-gold mx-auto">
+          <img src="https://iili.io/nwEOjR4.jpg" alt="TRADE WITH GOUTHAM Logo" class="w-full h-full object-cover rounded-full">
+        </div>
+        <div class="absolute bottom-0 right-1 bg-brand-accent text-slate-950 p-1.5 rounded-full border-2 border-brand-dark shadow-md" title="Verified Channel">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Channel Details -->
+      <div class="space-y-2">
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
+          𝗧𝗥𝗔𝗗𝗘 𝗪𝗜𝗧𝗛 𝗚𝗢𝗨𝗧𝗛𝗔𝗠
+        </h1>
+        <p class="text-xs md:text-sm text-slate-300 max-w-xs mx-auto">
+          Stock Market Analysis & Free Educational Insights
+        </p>
+      </div>
+
+      <!-- Trust Badges Grid -->
+      <div class="grid grid-cols-2 gap-3 py-1 text-left">
+        <div class="bg-brand-card/80 border border-slate-800 p-3 rounded-xl flex items-center gap-3">
+          <div class="p-2 rounded-lg bg-emerald-500/10 text-brand-accent">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="text-xs text-slate-400">Daily Updates</div>
+            <div class="text-xs font-bold text-slate-200">Market Levels</div>
+          </div>
+        </div>
+
+        <div class="bg-brand-card/80 border border-slate-800 p-3 rounded-xl flex items-center gap-3">
+          <div class="p-2 rounded-lg bg-amber-500/10 text-brand-gold">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="text-xs text-slate-400">100% Free</div>
+            <div class="text-xs font-bold text-slate-200">Learning Only</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Member Count Banner -->
+      <div class="inline-flex items-center gap-2 bg-slate-900/80 px-3.5 py-1.5 rounded-full border border-slate-800 text-xs text-slate-300">
+        <span class="w-2 h-2 rounded-full bg-brand-accent animate-ping"></span>
+        <span>Join <strong class="text-white">10,000+</strong> Traders On Telegram</span>
+      </div>
+
+      <!-- SINGLE PRIMARY CTA BUTTON -->
+      <div>
+        <a href="https://t.me/+RxHS0acr_cI5OTdl" target="_blank" rel="noopener noreferrer" class="animate-pulse-slow block w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-brand-accent to-emerald-600 hover:from-brand-accentHover hover:to-emerald-700 text-white font-extrabold text-lg md:text-xl shadow-lg glow-effect transition-all transform active:scale-95 flex items-center justify-center gap-3 border border-emerald-400/30">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.562 8.161c-.18.717-.962 4.084-1.362 5.487-.168.591-.422.788-.663.807-.525.043-.923-.342-1.433-.676-.798-.523-1.25-.847-2.025-1.358-.896-.59-.315-.915.195-1.445.134-.138 2.456-2.25 2.502-2.443.006-.024.01-.116-.044-.165-.054-.049-.133-.032-.191-.02-.083.018-1.402.89-3.957 2.614-.374.257-.713.383-1.018.376-.335-.008-.981-.19-1.461-.346-.589-.19-1.057-.291-1.016-.614.021-.168.258-.339.711-.515 2.784-1.213 4.643-2.013 5.577-2.4 2.65-.1.102 3.201 1.341 3.201 2.571 0 .285-.03.568-.09.845z"/>
+          </svg>
+          JOIN TELEGRAM CHANNEL NOW
+        </a>
+        <p class="text-[11px] text-slate-400 mt-2">Instant access • Free join • No credit card required</p>
+      </div>
+
+      <!-- Feature Highlights -->
+      <div class="bg-brand-card/50 border border-slate-800 rounded-2xl p-4 text-left space-y-2.5 text-xs">
+        <h3 class="font-bold text-slate-200 text-sm border-b border-slate-800 pb-2">What you will get:</h3>
+        <ul class="space-y-2 text-slate-300">
+          <li class="flex items-start gap-2">
+            <span class="text-brand-accent font-bold">✓</span>
+            <span>Educational Nifty & BankNifty chart analysis</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-brand-accent font-bold">✓</span>
+            <span>Real-time stock market news & sentiment updates</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-brand-accent font-bold">✓</span>
+            <span>Risk management & trading discipline strategies</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Sticky Mobile Bottom CTA Bar -->
+  <div class="fixed bottom-0 left-0 right-0 p-3 bg-slate-900/95 border-t border-slate-800 backdrop-blur-md z-40 md:hidden">
+    <a href="https://t.me/+RxHS0acr_cI5OTdl" target="_blank" rel="noopener noreferrer" class="block w-full py-3 px-4 rounded-xl bg-brand-accent hover:bg-brand-accentHover text-slate-950 font-extrabold text-center text-sm shadow-md flex items-center justify-center gap-2">
+      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+        <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.562 8.161c-.18.717-.962 4.084-1.362 5.487-.168.591-.422.788-.663.807-.525.043-.923-.342-1.433-.676-.798-.523-1.25-.847-2.025-1.358-.896-.59-.315-.915.195-1.445.134-.138 2.456-2.25 2.502-2.443.006-.024.01-.116-.044-.165-.054-.049-.133-.032-.191-.02-.083.018-1.402.89-3.957 2.614-.374.257-.713.383-1.018.376-.335-.008-.981-.19-1.461-.346-.589-.19-1.057-.291-1.016-.614.021-.168.258-.339.711-.515 2.784-1.213 4.643-2.013 5.577-2.4 2.65-.1.102 3.201 1.341 3.201 2.571 0 .285-.03.568-.09.845z"/>
+      </svg>
+      JOIN TELEGRAM (100% FREE)
+    </a>
   </div>
 
-  <p class="join-text">Join our learning community and grow your knowledge</p>
+  <!-- Footer & Meta Compliance Section -->
+  <footer class="bg-slate-950 border-t border-slate-900 py-6 px-4 text-center text-xs text-slate-400 space-y-4">
+    <div class="max-w-3xl mx-auto space-y-3">
+      
+      <!-- SEBI Disclaimer -->
+      <p class="leading-relaxed text-[11px]">
+        <strong class="text-slate-300">Disclaimer & Risk Notice:</strong> We are NOT SEBI (Securities and Exchange Board of India) registered advisors. All information, technical levels, and charts posted on <strong>TRADE WITH GOUTHAM</strong> channel are strictly for educational and informational purposes only. Options and Stock trading involves substantial risk of financial loss. Please consult a qualified certified financial advisor before making any investment decisions.
+      </p>
 
-  <a href="https://t.me/+mc6hSYTJFoU0MmRl" class="telegram-btn">JOIN TELEGRAM</a>
+      <!-- Meta Ads Policy Notice -->
+      <p class="text-[10px] text-slate-400">
+        This site is not a part of the Facebook website or Meta Platforms, Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of META Platforms, Inc.
+      </p>
 
-  <p class="hindi-quote">     ,     </p>
+      <!-- Links -->
+      <div class="flex justify-center items-center gap-4 text-[11px] text-slate-400 pt-2 border-t border-slate-900">
+        <button onclick="openModal('privacy')" class="hover:underline hover:text-slate-200">Privacy Policy</button>
+        <span>•</span>
+        <button onclick="openModal('terms')" class="hover:underline hover:text-slate-200">Terms of Service</button>
+        <span>•</span>
+        <button onclick="openModal('disclaimer')" class="hover:underline hover:text-slate-200">SEBI Compliance</button>
+      </div>
 
-  <div class="footer-box">
-    This Channel Advertise By <a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank">AD BUILD AGENCY</a>
+      <!-- Agency Credit Line -->
+      <div class="pt-3 border-t border-slate-900/80">
+        <a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs text-brand-agency hover:text-blue-400 transition-colors font-medium bg-blue-950/40 border border-blue-900/50 px-3 py-1 rounded-full">
+          <span>Ads By AD BUILD AGENCY</span>
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20">
+            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+          </svg>
+        </a>
+      </div>
+
+      <p class="text-[10px] text-slate-400">
+        &copy; <script>document.write(new Date().getFullYear())</script> TRADE WITH GOUTHAM. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- Modal Container for Privacy & Terms -->
+  <div id="infoModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full p-6 text-left space-y-4 max-h-[80vh] overflow-y-auto">
+      <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+        <h3 id="modalTitle" class="text-base font-bold text-white">Legal Information</h3>
+        <button onclick="closeModal()" class="text-slate-400 hover:text-white text-xl font-bold">&times;</button>
+      </div>
+      <div id="modalBody" class="text-xs text-slate-300 space-y-3 leading-relaxed">
+        <!-- Content inserted dynamically -->
+      </div>
+      <div class="text-right pt-2">
+        <button onclick="closeModal()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-xs">Close</button>
+      </div>
+    </div>
   </div>
 
-  <div class="disclaimer">
-    Terms | Privacy | Disclaimer <br>
-    This site is not part of Facebook� or endorsed by Facebook�.
-  </div>
-</div>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2552096918611818');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2552096918611818&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <script>
+    const modalData = {
+      privacy: {
+        title: 'Privacy Policy',
+        content: '<p>Your privacy is important to us. We do not collect or store personal identifiable information on this landing page. Clicking on the Telegram link redirects you to the official Telegram application, which is governed by Telegram\'s independent privacy policies.</p><p class="mt-2">Cookies may be used strictly for analytics and advertising compliance through standard ad platforms like Meta Ads.</p>'
+      },
+      terms: {
+        title: 'Terms of Service',
+        content: '<p>By accessing <strong>TRADE WITH GOUTHAM</strong> Telegram channel, you agree that all content provided is exclusively for educational purpose. No content should be construed as direct financial or investment advice.</p><p class="mt-2">Past performance shared in educational posts is not indicative of future returns. You are solely responsible for your financial and trading decisions.</p>'
+      },
+      disclaimer: {
+        title: 'SEBI Compliance & Risk Disclosure',
+        content: '<p><strong>Non-SEBI Registered:</strong> The channel administrators and creators are NOT SEBI registered financial advisors or research analysts.</p><p class="mt-2"><strong>Risk Warning:</strong> Trading derivatives (Futures & Options) and equities involves substantial financial risk. Up to 9 out of 10 individual traders in equity Futures and Options Segment incur net losses according to SEBI study data. Trade responsibly.</p>'
+      }
+    };
+
+    function openModal(key) {
+      document.getElementById('modalTitle').innerText = modalData[key].title;
+      document.getElementById('modalBody').innerHTML = modalData[key].content;
+      document.getElementById('infoModal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('infoModal').classList.add('hidden');
+    }
+  </script>
+
 </body>
 </html>
